@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+}
+h1 {  
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+   text-shadow: rgb(7, 182, 65) 0.1em 0.1em 0.2em
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 40vw;
+  margin: auto;
+}
+input {
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0;
+  outline: none;
+  margin-bottom: 20px;
+}
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cadastro,
+.limpa {
+  width: 15vw;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.cadastro {
+  background-color: rgb(7, 182, 65);
+  transition: transform 0.8s ease;
+}
+.cadastro:hover{
+  transform: scale(1.1);
+}
+.limpa {
+  background-color: rgb(95, 95, 95);
+  transition: transform 0.8s ease;
+}
+.limpa:hover{
+  background-color: red;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
